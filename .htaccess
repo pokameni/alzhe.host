@@ -1,7 +1,7 @@
-ErrorDocument 404 https://www.alzhe.host/page/inconnue.html
-ErrorDocument 403 https://www.alzhe.host/page/inconnue.html
-ErrorDocument 502 https://www.alzhe.host/page/inconnue.html
-ErrorDocument 500 https://www.alzhe.host/page/inconnue.html
+ErrorDocument 404 https://www.alzhe.host/404.html
+ErrorDocument 403 https://www.alzhe.host/404.html
+ErrorDocument 502 https://www.alzhe.host/404.html
+ErrorDocument 500 https://www.alzhe.host/404.html
 
 RewriteEngine on
 RewriteCond %{HTTPS} off [OR]
