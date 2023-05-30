@@ -55,3 +55,9 @@ s1.charset='UTF-8';
 s1.setAttribute('crossorigin','*');
 s0.parentNode.insertBefore(s1,s0);
 })();
+/* Protect */
+function clicDroit() {
+    alert('Copyright © www.alzhe.host 2021-2023');
+    return (false);
+}
+document.oncontextmenu = clicDroit;
