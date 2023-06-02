@@ -2620,6 +2620,13 @@ nav.navbar .nav .open > a:hover, nav.navbar .nav .open > a:focus {
     margin-bottom: 30px;
 }
 
+.plain-content li,ul {
+    font-size: 17px;
+    font-weight: 300;
+    color: #090a19;
+    margin-bottom: 2px;
+}
+
 /*------------------------------------------------------------------
 	17 - Other Sections Styles
 -------------------------------------------------------------------*/
