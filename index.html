@@ -1,457 +1,36 @@
-<!--<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="https://www.alzhe.host/assets/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="https://www.alzhe.host/assets/css/fontawesome-all.min.css">
-    <link rel="stylesheet" type="text/css" href="https://www.alzhe.host/assets/css/slick.css">
-    <link rel="stylesheet" type="text/css" href="https://www.alzhe.host/assets/css/style.css">
-    <!-- SEO fait main <3 -->
-     <!--<title>Accueil ➤ Alzhe.Host - Hébergeur priorisant rapport qualité prix.</title>
-    <meta name="keywords" content="hébergeur, web, python, python3, pterodactyl, whmcs, plesk, nodejs, garry's mod, garrysmod, gmod, gta, gta5, fivem, alt:v, minecraft">
-    <meta name="robots" content="nofollow">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.alzhe.host/">
-    <meta property="og:title" content="Accueil ➤ Alzhe.Host - Hébergeur priorisant rapport qualité prix">
-    <meta property="og:description" content="Alzhe.Host est une entreprise de services informatiques proposant l'hébergement de sites web, de serveurs de jeux Minecraft, Garry's Mod et FiveM ainsi que d'applications NodeJS et Python. N'hésitez pas à visiter notre site Internet.">
-    <meta property="og:image" content="https://www.alzhe.host/assets/images/twittercard.png">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:width" content="800">
-    <meta property="og:image:height" content="418">
-    <meta name="theme-color" content="#6441a5">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta property="twitter:image" content="https://www.alzhe.host/assets/images/twittercard.png">
-    <meta property="twitter:url" content="https://www.alzhe.host/">
-    <meta property="twitter:title" content="Accueil ➤ Alzhe.Host - Hébergeur priorisant rapport qualité prix">
-    <meta property="twitter:description" content="Alzhe.Host est une entreprise de services informatiques proposant l'hébergement de sites web, de serveurs de jeux Minecraft, Garry's Mod et FiveM ainsi que d'applications NodeJS et Python.">
-</head>
-<body oncontextmenu="return false" onselectstart="return false" ondragstart="return false">
-<div id="header-holder">
-    <div class="cloud-bg"></div>
-    <nav id="nav" class="navbar navbar-full">
-        <div class="container-fluid">
-            <div class="container container-nav">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="navbar-header">
-                            <button aria-expanded="false" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs">
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </button>
-                            <a class="navbar-brand"><img src="https://www.alzhe.host/assets/images/logo_white.svg" alt="Alzhe.Host"></a>
-                        </div>
-                        <div style="height: 1px;" role="main" aria-expanded="false" class="navbar-collapse collapse navbar-collapse-centered" id="bs">
-                            <ul class="nav navbar-nav navbar-nav-centered">
-                                <li class="nav-item">
-                                    <a href="https://www.alzhe.host/" class="nav-link">Accueil</a>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Nos offres</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="https://www.alzhe.host/nos/offres">🛒 Toutes nos offres</a></li>
-                                        <li><a href="https://www.alzhe.host/nos/offres/web">🌐 Web</a></li>
-                                        <li><a href="https://www.alzhe.host/nos/offres/nodejs">🤖 NodeJS</a></li>
-                                        <li><a href="https://www.alzhe.host/nos/offres/python">🐍 Python</a></li>
-                                        <li><a href="https://www.alzhe.host/nos/offres/minecraft">🧱 Minecraft</a></li>
-                                        <li><a href="https://www.alzhe.host/nos/offres/garrysmod">🧰 Garry's Mod</a></li>
-                                        <li><a href="https://www.alzhe.host/nos/offres/gta">👮🏼‍ GTA</a></li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">À propos de nous</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="https://discord.gg/hd8mjVm2Rm" target="_blank">💬 Serveur Discord</a></li>
-                                        <li><a href="https://www.alzhe.host/a/propos/de/nous">👨🏼‍⚖️ À propos de nous</a></li>
-                                        <li><a href="https://help.alzhe.host" target="_blank">📜 Documentation</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                            <ul class="nav navbar-nav navbar-right other-navbar">
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link btn-client-area dropdown-toggle" data-toggle="dropdown"><img src="https://www.alzhe.host/assets/images/lock.svg" alt="">Se connecter</a>
-                                    <div class="chat-info" id="status">👷🏼‍ Maintenance</div>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="https://ptero.alzhe.host">🎮 Panel de jeu</a></li>
-                                        <li><a href="https://plesk.alzhe.host">🌐 Panel Web</a></li>
-                                        <li><a href="https://my.alzhe.host">👤 Espace client</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </nav>
-    <div id="top-content" class="container-fluid">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="main-slider">
-                        <div class="slide">
-                            <div class="row rtl-row">
-                                <div class="col-sm-5">
-                                    <div class="img-holder">
-                                    </div>
-                                </div>
-                                <div class="col-sm-7">
-                                    <div class="b-text">Un hébergement <br>web exceptionnel pour vous.</div>
-                                    <div class="m-text">À partir de <span class="bold">2€/mois</span></div>
-                                    <a class="hbtn hbtn-primary hbtn-lg">Découvrir les offres Web</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="slide">
-                            <div class="row rtl-row">
-                                <div class="col-sm-5">
-                                    <div class="img-holder">
-                                    </div>
-                                </div>
-                                <div class="col-sm-7">
-                                    <div class="b-text">Créez votre blog via WordPress<br>sans difficulté.</div>
-                                    <div class="m-text">À partir de <span class="bold">2€/mois</span></div>
-                                    <a class="hbtn hbtn-primary hbtn-lg">Découvrir les offres Web</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="slide">
-                            <div class="row rtl-row">
-                                <div class="col-sm-5">
-                                    <div class="img-holder">
-                                    </div>
-                                </div>
-                                <div class="col-sm-7">
-                                    <div class="b-text">Créez votre application via <br>NodeJS ou Python.</div>
-                                    <div class="m-text">À partir de <span class="bold">2€/mois</span></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="slide">
-                            <div class="row rtl-row">
-                                <div class="col-sm-5">
-                                    <div class="img-holder">
-                                    </div>
-                                </div>
-                                <div class="col-sm-7">
-                                    <div class="b-text">Créez-vous un monde sur<br>votre serveur Minecraft.</div>
-                                    <div class="m-text">À partir de <span class="bold">5€/mois</span></div>
-                                    <a class="hbtn hbtn-primary hbtn-lg">Découvrir les offres Minecraft</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="slide">
-                            <div class="row rtl-row">
-                                <div class="col-sm-5">
-                                    <div class="img-holder">
-                                    </div>
-                                </div>
-                                <div class="col-sm-7">
-                                    <div class="b-text">Cachez-vous en prophunt<br>sur votre serveur Garry's Mod.</div>
-                                    <div class="m-text">À partir de <span class="bold">5€/mois</span></div>
-                                    <a class="hbtn hbtn-primary hbtn-lg">Découvrir les offres Garry's Mod</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="pricing container-fluid">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12">
-                <div class="row-title">Nos futures offres</div>
-            </div>
-        </div>
-        <div class="row custom-padding">
-            <div class="col-sm-6 col-md-4">
-                <div class="pricing-box">
-                    <div class="pricing-title">Web</div>
-                    <div class="pricing-icon">
-                        <div class="icon"><img src="https://www.alzhe.host/assets/images/web.svg" alt=""></div>
-                    </div>
-                    <div class="pricing-details">
-                        <ul>
-                            <li>Panel Plesk</li>
-                            <li>1 à ∞ sous-domaine(s)</li>
-                            <li>2Go à 10Go HDD</li>
-                            <li>1 à ∞ adresse(s) mail</li>
-                        </ul>
-                    </div>
-                    <div class="pricing-price">
-                        <div class="price-info">À partir de</div>
-                        <div class="price">
-                            <span class="num">2</span><span class="currency">€</span><span class="duration">/mois</span>
-                        </div>
-                    </div>
-                    <div class="pricing-button">
-                        <a>Commander</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-4">
-                <div class="pricing-box">
-                    <div class="pricing-title">NodeJS</div>
-                    <div class="pricing-icon">
-                        <div class="icon"><img src="https://www.alzhe.host/assets/images/nodejs.svg" alt=""></div>
-                    </div>
-                    <div class="pricing-details">
-                        <ul>
-                            <li>Panel Pterodactyl</li>
-                            <li>512Mo à 5Go RAM dédiée</li>
-                            <li>512Mo à 2Go SSD NVMe</li>
-                            <li>1 base de donnée MySQL</li>
-                        </ul>
-                    </div>
-                    <div class="pricing-price">
-                       <div class="price-info">À partir de</div>
-                        <div class="price">
-                            <span class="num">2</span><span class="currency">€</span><span class="duration">/mois</span>
-                        </div>
-                    </div>
-                    <div class="pricing-button">
-                        <a>Commander</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-4">
-                <div class="pricing-box">
-                    <div class="pricing-title">Python</div>
-                    <div class="pricing-icon">
-                        <div class="icon"><img src="https://www.alzhe.host/assets/images/python.svg" alt=""></div>
-                    </div>
-                    <div class="pricing-details">
-                        <ul>
-                            <li>Panel Pterodactyl</li>
-                            <li>512Mo à 5Go RAM dédiée</li>
-                            <li>512Mo à 2Go SSD NVMe</li>
-                            <li>1 base de donnée MySQL</li>
-                        </ul>
-                    </div>
-                    <div class="pricing-price">
-                       <div class="price-info">À partir de</div>
-                        <div class="price">
-                            <span class="num">2</span><span class="currency">€</span><span class="duration">/mois</span>
-                        </div>
-                    </div>
-                    <div class="pricing-button">
-                        <a>Commander</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-4">
-                <div class="pricing-box">
-                    <div class="pricing-title">Minecraft</div>
-                    <div class="pricing-icon">
-                        <div class="icon"><img src="https://www.alzhe.host/assets/images/minecraft.svg" alt=""></div>
-                    </div>
-                    <div class="pricing-details">
-                        <ul>
-                            <li>Panel Pterodactyl</li>
-                            <li>2Go à 16Go RAM dédiée </li>
-                            <li>5Go à 50Go SSD NVMe</li>
-                            <li>1 à ∞ base(s) de donnée MySQL</li>
-                        </ul>
-                    </div>
-                    <div class="pricing-price">
-                       <div class="price-info">À partir de</div>
-                        <div class="price">
-                            <span class="num">5</span><span class="currency">€</span><span class="duration">/mois</span>
-                        </div>
-					</div>
-                    <div class="pricing-button">
-                        <a>Commander</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-4">
-                <div class="pricing-box">
-                    <div class="pricing-title">Garry's Mod</div>
-                    <div class="pricing-icon">
-                        <div class="icon"><img src="https://www.alzhe.host/assets/images/garrysmod.svg" alt=""></div>
-                    </div>
-                    <div class="pricing-details">
-                        <ul>
-                            <li>Panel Pterodactyl</li>
-                            <li>4Go à 16Go RAM dédiée </li>
-                            <li>Offre web gratuite</li>
-                            <li>1 à ∞ base(s) de donnée MySQL</li>
-                        </ul>
-                    </div>
-                    <div class="pricing-price">
-                       <div class="price-info">À partir de</div>
-                        <div class="price">
-                            <span class="num">5</span><span class="currency">€</span><span class="duration">/mois</span>
-                        </div>
-					</div>
-                    <div class="pricing-button">
-                        <a>Commander</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-4">
-                <div class="pricing-box">
-                    <div class="pricing-title">GTA</div>
-                    <div class="pricing-icon">
-                        <div class="icon"><img src="https://www.alzhe.host/assets/images/gtav.png" alt=""></div>
-                    </div>
-                    <div class="pricing-details">
-                        <ul>
-                            <li>Panels Pterodactyl et txAdmin</li>
-                            <li>4Go à 16Go RAM dédiée </li>
-                            <li>Offre web gratuite</li>
-                            <li>1 à ∞ base(s) de donnée MySQL</li>
-                        </ul>
-                    </div>
-                    <div class="pricing-price">
-                       <div class="price-info">À partir de</div>
-                        <div class="price">
-                            <span class="num">6</span><span class="currency">€</span><span class="duration">/mois</span>
-                        </div>
-					</div>
-                    <div class="pricing-button">
-                        <a>Commander</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="support-links container-fluid">
-    <div class="row">
-        <div class="col-sm-6 hylink-holder">
-            <div class="hylink-box">
-                <div class="icon"><img src="https://www.alzhe.host/assets/images/info.svg" alt=""></div>
-                <a href="https://discord.gg/hd8mjVm2Rm" target="_blank" class="link">Discutons</a>
-                <div class="text">Notre serveur Discord est idéal pour discuter entre clients, néophytes et/ou professionnels.</div>
-            </div>
-        </div>
-        <div class="col-sm-6 hylink-holder">
-            <div class="hylink-box">
-                <div class="icon"><img src="https://www.alzhe.host/assets/images/chat.svg" alt=""></div>
-                <a class="link">Documentation</a>
-                <div class="text">Renseignez-vous ici avant d'ouvrir un ticket. Si la réponse y est, votre ticket sera refusé d'entrée de jeu. Résoudre ses problèmes soi même est un excellent moyen d'apprentissage.</div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="footer container-fluid">
-    <a class="btn-go-top" href="#"><i class="hstb hstb-down-arrow"></i></a>
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-6 col-sm-2 col-md-2 col-lg-2">
-                <div class="footer-menu">
-                    <h4>🛒 Nos offres</h4>
-                    <ul>
-                        <li>🌐 <a href="https://www.alzhe.host/nos/offres/web">Web</a></li>
-                        <li>🤖 <a href="https://www.alzhe.host/nos/offres/nodejs">NodeJS</a></li>
-                        <li>🐍 <a href="https://www.alzhe.host/nos/offres/python">Python</a></li>
-                        <li>🧱 <a href="https://www.alzhe.host/nos/offres/minecraft">Minecraft</a></li>
-                        <li>🧰 <a href="https://www.alzhe.host/nos/offres/garrysmod">Garry's Mod</a></li>
-                        <li>👮🏼‍ <a href="https://www.alzhe.host/nos/offres/gta">GTA</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-xs-6 col-sm-2 col-md-2 col-lg-2">
-                <div class="footer-menu">
-                    <h4>🙏🏼 Support</h4>
-                    <ul>
-                        <li>💾 <a href="https://my.alzhe.host/clientarea">Espace client</a></li>
-                        <li>📜 <a href="https://help.alzhe.host" target="_blank">Documentation</a></li>
-                        <li>💬 <a href="https://discord.gg/hd8mjVm2Rm" target="_blank">Serveur Discord</a></li>
-                    </ul>  
-                </div>
-            </div>
-            <div class="col-xs-6 col-sm-2 col-md-2 col-lg-2">
-                <div class="footer-menu">
-					<h4>🔗 Nous noter</h4>
-                    <ul>
-					   <li>⭐ <a href="https://www.top-heberg.com/hebergeur/alzhehost-139" target="_blank">TopHéberg</a></li>
-                        <li>⭐ <a href="https://fr.trustpilot.com/review/alzhe.host" target="_blank">Trustpilot</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
-                <div class="footer-menu">
-                    <h4></h4>
-                    <ul>
-                        <li>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
-                <div class="footer-menu custom-footer-menu">
-                    <h4>📩 Nous contacter</h4>
-                    <ul>
-                        <li>🐦 <a href="https://twitter.com/AlzheHost" target="_blank">@AlzheHost</a></li>
-                        <li>📴 +33 6 00 00 00 00</li>
-                        <li>💬 <a href="https://discord.gg/hd8mjVm2Rm" target="_blank">Serveur Discord</a></li>
-                        <li>📮 <a href="https://my.alzhe.host/clientarea/tickets">Envoyer un ticket</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="sub-footer">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="sub-footer-menu">
-                        <ul>
-                            <li><a href="https://www.alzhe.host/sitemap">⛓ Sitemap</a></li>
-                            <li><a href="https://www.alzhe.host/a/propos/de/nous">⚖ À propos de nous</a></li>
-                        </ul>        
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="copyright">© Copyright 2021-2023 ALZHE.HOST</div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<script src="https://www.alzhe.host/assets/js/jquery.min.js"></script>
-<script src="https://www.alzhe.host/assets/js/bootstrap.min.js"></script>
-<script src="https://www.alzhe.host/assets/js/slick.min.js"></script>
-<script src="https://www.alzhe.host/assets/js/main.js"></script>
-</body>
-</html>-->
 <!doctype html>
 <html oncontextmenu="return false" onselectstart="return false" ondragstart="return false">
-<title>Alzhe.Host - Service interrompu</title>
+    <!-- SEO fait main <3 -->
+        <title>Service abandonné ➤ Alzhe.Host - Hébergeur</title>
+        <meta name="keywords" content="hébergeur, web, python, python3, pterodactyl, whmcs, plesk, nodejs, garry's mod, garrysmod, gmod, gta, gta5, fivem, alt:v, minecraft">
+        <meta name="robots" content="nofollow">
+        <meta name="author" content="🧑🏼‍💻 Pokameni t'adresse un message!">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://www.alzhe.host/">
+        <meta property="og:title" content="Service abandonné ➤ Alzhe.Host - Hébergeur">
+        <meta property="og:description" content="Ce service est abandonné car son propriétaire a quitté l'Internet. 😅 J'ai toutefois récupéré les fichiers afin d'utiliser son travail, avec son accord. 🤝">
+        <meta property="og:image:type" content="image/png">
+        <meta property="og:image:width" content="800">
+        <meta property="og:image:height" content="418">
+        <meta name="theme-color" content="#6441a5">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta property="twitter:url" content="https://www.alzhe.host/">
+        <meta property="twitter:title" content="Service abandonné ➤ Alzhe.Host - Hébergeur">
+        <meta property="twitter:description" content="Ce service est abandonné car son propriétaire a quitté l'Internet. 😅 J'ai toutefois récupéré les fichiers afin d'utiliser son travail, avec son accord. 🤝">
+    
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
 <style>
   html, body { padding: 0; margin: 0; width: 100%; height: 100%; cursor: not-allowed; }
   * {box-sizing: border-box;}
-  body { text-align: center; padding: 0; background: #8a0000; color: #fff; font-family: Open Sans; }
-  h1 { font-size: 50px; font-weight: 100; text-align: center;}
-  body { font-family: Open Sans; font-weight: 100; font-size: 20px; color: #fff; text-align: center; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center;}
+  body { text-align: left; padding: 0; background: #8a0000; color: #fff; font-family: Open Sans; }
+  h1 { font-size: 50px; font-weight: 100; text-align: left;}
+  body { font-family: Open Sans; font-weight: 100; font-size: 20px; color: #fff; text-align: left; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center;}
   article { display: block; width: 700px; padding: 50px; margin: 0 auto; }
   a { color: #fff; font-weight: bold;}
   a:hover { text-decoration: none; }
   svg { width: 75px; margin-top: 1em; }
 </style>
-<script>for (let i = 0; i < 4; i++) {
-    console.log("%c ", "color: #5865f2; font-size: xxx-large");
-    console.log("%c ", "color: #5865f2; font-size: xxx-large");
-    console.log("%c ", "color: #5865f2; font-size: xxx-large");
-    console.log("%c ", "color: #5865f2; font-size: xxx-large");
-    console.log("%c ", "color: #5865f2; font-size: xxx-large");
-    console.log("%c ", "color: #5865f2; font-size: xxx-large");
-    console.log("%c ", "color: #5865f2; font-size: xxx-large");
-    console.log("%c ", "color: #5865f2; font-size: xxx-large");
-    console.log("%c ", "color: #5865f2; font-size: xxx-large");
-    console.log("%c ", "color: #5865f2; font-size: xxx-large");
-    console.log("%c ", "color: #5865f2; font-size: xxx-large");
-    console.log("%c ", "color: #5865f2; font-size: xxx-large");
-    console.log("%c ", "color: #5865f2; font-size: xxx-large");
-    console.log("%cATTENDS ! 🤓", "color: #5865f2; font-size: xxx-large");
-    console.log("%cNe rentre aucun code ici, il y a environ 100% de chance qu'il ne soit pas politiquement correct.", "color: #5865f2; font-size: medium");
-    console.log("%cEt ceci, que ce soit mon site web, celui de Discord, de Roblox, de Pornhub ou n'importe quel site sous Wordpress, Mineweb et ainsi de suite.", "color: #5865f2; font-size: medium");
-}
+<script>
 document.addEventListener("contextmenu", e=>e.preventDefault());
 document.onkeydown = function(e) {
     if (e.ctrlKey && e.shiftKey && e.keyCode == "I".charCodeAt(0)) {
@@ -471,11 +50,12 @@ document.onkeydown = function(e) {
 ;
 </script>
 <article>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 202.24 202.24"><defs><style>.cls-1{fill:#fff;}</style></defs><title>Poka.Host reviendra</title><g id="Layer_2" data-name="Layer 2"><g id="Capa_1" data-name="Capa 1"><path class="cls-1" d="M101.12,0A101.12,101.12,0,1,0,202.24,101.12,101.12,101.12,0,0,0,101.12,0ZM159,148.76H43.28a11.57,11.57,0,0,1-10-17.34L91.09,31.16a11.57,11.57,0,0,1,20.06,0L169,131.43a11.57,11.57,0,0,1-10,17.34Z"/><path class="cls-1" d="M101.12,36.93h0L43.27,137.21H159L101.13,36.94Zm0,88.7a7.71,7.71,0,1,1,7.71-7.71A7.71,7.71,0,0,1,101.12,125.63Zm7.71-50.13a7.56,7.56,0,0,1-.11,1.3l-3.8,22.49a3.86,3.86,0,0,1-7.61,0l-3.8-22.49a8,8,0,0,1-.11-1.3,7.71,7.71,0,1,1,15.43,0Z"/></g></g></svg>
-    <h1>Service alzhe.host interrompu</h1>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 202.24 202.24"><defs><style>.cls-1{fill:#fff;}</style></defs><title>https://www.pokameni.fr/</title><g id="Layer_2" data-name="Layer 2"><g id="Capa_1" data-name="Capa 1"><path class="cls-1" d="M101.12,0A101.12,101.12,0,1,0,202.24,101.12,101.12,101.12,0,0,0,101.12,0ZM159,148.76H43.28a11.57,11.57,0,0,1-10-17.34L91.09,31.16a11.57,11.57,0,0,1,20.06,0L169,131.43a11.57,11.57,0,0,1-10,17.34Z"/><path class="cls-1" d="M101.12,36.93h0L43.27,137.21H159L101.13,36.94Zm0,88.7a7.71,7.71,0,1,1,7.71-7.71A7.71,7.71,0,0,1,101.12,125.63Zm7.71-50.13a7.56,7.56,0,0,1-.11,1.3l-3.8,22.49a3.86,3.86,0,0,1-7.61,0l-3.8-22.49a8,8,0,0,1-.11-1.3,7.71,7.71,0,1,1,15.43,0Z"/></g></g></svg>
+    <h1>Service abandonné. 🪦</h1>
     <div>
-        <p>À ce moment précis, Alzhe.Host est interrompu, vous pourrez obtenir plus d'informations ou nous contacter sur <a href="http://www.twitter.com/PokaHost">Twitter</a>. Nous reviendrons vite ! 😎</p>
-        <p>&mdash; Pokameni</p>
+        <p>Ce service est désactivé car son propriétaire a quitté l'Internet. 😅</p>
+        <p>J'ai toutefois récupéré les fichiers afin d'utiliser son travail, avec son accord. 🤝</p>
+        <p>&mdash; son ami, <a href="https://www.pokameni.fr/" target="_blank">POKAMENI</a>. 🧑🏼‍💻</p>
     </div>
 </article>
 </htm>
